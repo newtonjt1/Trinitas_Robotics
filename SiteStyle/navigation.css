@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*navigation style for Best website*/
+nav {
+	background-color:#E5E5E5;
+	text-align: center;
+	margin: 0px;
+	padding-top: 8px;
+	width: 100%;
+}
+/*nav list style*/
+nav li{
+	width: 150px;
+	margin: 0;
+	padding: 0 0 8px 0;
+	display: inline-block;
+	position: relative;
+	list-style: none;
+	z-index: 10;
+	font-family: "Times New Roman";
+	margin-bottom: 2px;
+}
+nav ul {
+	padding-inline-start: unset;
+}
+/*nav a {
+	padding: 5px 0px;
+	margin: 0;
+	font-weight: bold;
+	font-size: 14px;
+	font-variant: normal;
+	color: black;
+	display: block;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+}*/
+nav>ul>li>a {
+	font-family: "Times New Roman";
+	text-shadow: ;
+	color: #000000;
+}
+nav li: hover {
+background-color:#7E1600;
+border-radius:8px 8px 8px 8 px;
+}
